@@ -1,4 +1,4 @@
-import 'package:boardingweek/core/constants/appconstants.dart';
+import 'package:boardingweek/core/constants/app_constants.dart';
 import 'package:boardingweek/core/constants/color.dart';
 import 'package:boardingweek/core/constants/typogrqaphy.dart';
 import 'package:boardingweek/core/extensions/padding_extension.dart';

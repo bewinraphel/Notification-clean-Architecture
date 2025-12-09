@@ -1,4 +1,4 @@
- import 'package:boardingweek/core/constants/appconstants.dart';
+ import 'package:boardingweek/core/constants/app_constants.dart';
 import 'package:flutter/material.dart';
 
 enum NotificationType {

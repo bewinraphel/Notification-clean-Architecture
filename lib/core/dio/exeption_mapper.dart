@@ -15,3 +15,4 @@ Failure mapDioError(DioException e) {
 
   return UnknownFailure("Something Went Wrong");
 }
+

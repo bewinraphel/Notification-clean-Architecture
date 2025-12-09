@@ -1,4 +1,4 @@
-import 'package:boardingweek/core/constants/appconstants.dart';
+import 'package:boardingweek/core/constants/app_constants.dart';
 import 'package:boardingweek/core/extensions/integer-sizedbox_extension.dart';
 import 'package:boardingweek/core/utility/responsive.dart';
 import 'package:boardingweek/core/utility/widgets/widgets.dart';

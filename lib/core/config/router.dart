@@ -2,7 +2,7 @@ import 'package:boardingweek/core/config/enum/enum.dart';
 import 'package:boardingweek/core/debug/debug.dart';
 import 'package:boardingweek/feature/account/presentation/screens/account_screen.dart';
 import 'package:boardingweek/feature/cart/presentation/screens/cart_screen.dart';
-import 'package:boardingweek/feature/home/presentation/screens/Home_screen.dart';
+import 'package:boardingweek/feature/home/presentation/screens/home_screen.dart';
 import 'package:boardingweek/feature/myorder/presentation/screens/my_order.dart';
 import 'package:boardingweek/feature/navigation/presentation/screens/main_screen.dart';
 import 'package:boardingweek/feature/notification/presentation/screens/notification.dart';
