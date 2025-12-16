@@ -1,8 +1,8 @@
  ![Gro App Screenshot](assets/png/feature_image.png)
 
-# GroSnap App
+# Gro App
 
-A modern and intuitive **GroSnap App** built with **Flutter**, following **Clean Architecture** principles, using **Bloc** for state management. The app features a beautiful home screen and a dedicated notification screen to view all notifications. The UI is inspired by **Dart's modern design** with clean and minimal styling. The app fetches data from an API using **Dio** for efficient HTTP requests and includes comprehensive testing to ensure reliability and performance.
+A modern and intuitive **Gro App** built with **Flutter**, following **Clean Architecture** principles, using **Bloc** for state management. The app features a beautiful home screen and a dedicated notification screen to view all notifications. The UI is inspired by **Dart's modern design** with clean and minimal styling. The app fetches data from an API using **Dio** for efficient HTTP requests and includes comprehensive testing to ensure reliability and performance.
 
 ---
 
