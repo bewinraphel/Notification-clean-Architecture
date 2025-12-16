@@ -1,4 +1,4 @@
- ![GroSnap App Screenshot](assets/png/feature_image.png)
+ ![Gro App Screenshot](assets/png/feature_image.png)
 
 # GroSnap App
 
@@ -25,11 +25,10 @@ A modern and intuitive **GroSnap App** built with **Flutter**, following **Clean
 - get_it
 - dartz
 - dio
-- connectivity_plus
-- intl
-- mockito
-- http_mock_adapter
-- bloc_test
+ - intl
+ 
+
+
 
 ---
 
@@ -39,14 +38,7 @@ A modern and intuitive **GroSnap App** built with **Flutter**, following **Clean
 
 ---
 
-## Testing
-
-- **Unit Testing**: Utilizes `mockito` to mock dependencies and test business logic in isolation, ensuring core functionality works as expected.
-- **Widget Testing**: Tests Flutter widgets to verify UI components render correctly and respond to user interactions.
-- **Bloc Testing**: Uses `bloc_test` to test Bloc states and events, ensuring state management logic is robust.
-- **Mocked API Testing**: Employs `http_mock_adapter` to simulate API responses, allowing for reliable testing of network-dependent features without hitting the actual API.
-
----
+ 
 
 ## Getting Started
 
@@ -62,5 +54,5 @@ A modern and intuitive **GroSnap App** built with **Flutter**, following **Clean
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Azeemmtk/grosnap.git
+   git clone https://github.com/bewinraphel/Notification-clean-Architecture.git
    cd grosnap
