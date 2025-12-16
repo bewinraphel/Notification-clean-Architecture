@@ -1,51 +1,66 @@
- 📱 BoardingWeek
-BoardingWeek is a Flutter application developed as part of a candidate task.
-The app contains a Home screen and a Notifications screen, built based on Figma designs and API data.
-📌 Features
-Home Screen UI
-Notifications Screen UI
-Fetch data from API
-Parse JSON and display notifications
-Navigation between screens
-Clean and structured Flutter project
-🎨 Design
-Figma Design
-https://www.figma.com/file/sgB0RGsV3oaZzOYVHQaZs7/Flutter-Assignment
-🌐 API
-Notifications API
-https://raw.githubusercontent.com/sayanp23/test-api/main/test-notifications.json
-🛠 Tech Stack
-Flutter & Dart
-flutter_bloc (State Management)
-go_router (Navigation)
-dio (API calls)
-get_it (Dependency Injection)
-equatable
-flutter_svg
-cached_network_image
-shimmer
-📂 Assets & Fonts
-SVG and PNG assets
-Custom fonts:
-Quicksand
-Poppins
-Custom icon fonts
-▶️ How to Run
-flutter pub get
-flutter run
-📁 Project Structure (Basic)
-lib/
-├── core/
-├── features/
-│   ├── home/
-│   └── notifications/
-└── main.dart
-🎯 Purpose
-This project demonstrates:
-Flutter UI implementation
-API integration
-JSON parsing
-State management
-Clean project structure
-👤 Author
-Belwin Raphel
+ ![GroSnap App Screenshot](assets/png/feature_image.png)
+
+# GroSnap App
+
+A modern and intuitive **GroSnap App** built with **Flutter**, following **Clean Architecture** principles, using **Bloc** for state management. The app features a beautiful home screen and a dedicated notification screen to view all notifications. The UI is inspired by **Dart's modern design** with clean and minimal styling. The app fetches data from an API using **Dio** for efficient HTTP requests and includes comprehensive testing to ensure reliability and performance.
+
+---
+
+## Features
+
+- Beautiful home screen
+- Dedicated notification screen to view all notifications
+- Data fetching from an API using Dio
+- State management using Bloc
+- Clean and minimal Dart-style UI
+- Organized using Clean Architecture
+- Comprehensive unit and widget testing
+
+---
+
+## Tech Stack
+
+- Flutter
+- flutter_bloc
+- get_it
+- dartz
+- dio
+- connectivity_plus
+- intl
+- mockito
+- http_mock_adapter
+- bloc_test
+
+---
+
+## API Integration
+
+- **Dio**: Used for making HTTP requests to fetch data from the API. Dio provides a clean and efficient way to handle network requests with features like interceptors, timeouts, and error handling, ensuring robust communication with the backend.
+
+---
+
+## Testing
+
+- **Unit Testing**: Utilizes `mockito` to mock dependencies and test business logic in isolation, ensuring core functionality works as expected.
+- **Widget Testing**: Tests Flutter widgets to verify UI components render correctly and respond to user interactions.
+- **Bloc Testing**: Uses `bloc_test` to test Bloc states and events, ensuring state management logic is robust.
+- **Mocked API Testing**: Employs `http_mock_adapter` to simulate API responses, allowing for reliable testing of network-dependent features without hitting the actual API.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed [](https://flutter.dev/docs/get-started/install)
+- Android Studio / VS Code or any IDE
+- Emulator or physical device
+
+---
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Azeemmtk/grosnap.git
+   cd grosnap
